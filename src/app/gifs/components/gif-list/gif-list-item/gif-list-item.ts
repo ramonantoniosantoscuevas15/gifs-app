@@ -1,9 +1,11 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import {  Component, input } from '@angular/core';
 
 @Component({
-  selector: 'gisf-gif-list-item',
+  selector: 'gif-list-item',
   imports: [],
   templateUrl: './gif-list-item.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+
 })
-export class GifListItem { }
+export class GifListItem {
+  imageUrl = input.required<string>()
+}
