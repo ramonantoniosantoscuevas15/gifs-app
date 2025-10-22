@@ -1,10 +1,10 @@
 export const environment = {
-  production: true,
+    production: true,
   companyName: 'Gifs',
   companyName2: 'App',
-  companySlogan: 'Maneja tus Gifs'
+  companySlogan: 'Maneja tus Gifs',
 
   //apikeys
-
-  //urls
+  giphyapiKey: 'uSdA6OvldQ958GNiymAFze40LmrwRWgK',
+  giphyUrl: 'https://api.giphy.com/v1',
 };
